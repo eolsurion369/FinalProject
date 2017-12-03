@@ -1,4 +1,4 @@
-Create Table Address (
+CREATE TABLE Address (
 ID int IDENTITY PRIMARY KEY,
 AddrLn1 varchar(90) NOT NULL, 
 AddrLn2 varchar(90), 
