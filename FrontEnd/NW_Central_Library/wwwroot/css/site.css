@@ -1,0 +1,67 @@
+﻿body {
+    padding-top: 225px;
+    padding-bottom: 20px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+/* QR code generator */
+#qrCode {
+    margin: 15px;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
+
+.navbar-fixed-top {
+    top: 186px;
+}
+
+.navbar-default {
+    background-color: black;
+    color: lightgrey !important;
+}
+
+#topImage {
+    top: 0;
+    position: fixed;
+    background-color: black;
+    height: 186px;
+    width: 100%;
+}
+
+ul.nav.navbar-nav .dropdown.open .dropdown-toggle {
+    background-color: black;
+    color: darkgrey !important;
+}
+
+ul.nav a:active {
+    background-color: black;
+    color: lightgrey !important;
+}
+
+ul.nav a:hover {
+    background-color: black;
+    color: darkgrey !important;
+}
